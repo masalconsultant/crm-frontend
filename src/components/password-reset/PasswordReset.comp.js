@@ -12,7 +12,8 @@ export const ResetPassword =
               <Col>
                 <h1 className="text-info" text-center>Reset Password</h1>
                 <hr />
-                <Form autoComplete="off" onSubmit={handleOnResetSubmit}>
+                <Form autoComplete="off" onSubmit=
+                {handleOnResetSubmit}>
                   <Form.Group>
                       <Form.Label>Email Address</Form.Label>
                       <Form.Control 
@@ -21,7 +22,7 @@ export const ResetPassword =
                       value={email}
                       onChange={handleOnChange}
                       placeholder='Enter Email'
-                      
+                      required
                       />  
                   </Form.Group>  
 
