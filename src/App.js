@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
 import { DefaultLayout } from './layout/DefaultLayout';
+import { Dashboard } from './pages/dashboard/Dashboard.page';
 import { Entry } from './pages/entry/Entry.pages';
 
 function App() {
   return (
     <div className="App">
     {/*<Entry />*/}
-    <DefaultLayout>Send page component</DefaultLayout>
+    <DefaultLayout>
+       <Dashboard />
+    </DefaultLayout>
     </div>
   );
 }
