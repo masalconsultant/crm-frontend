@@ -7,7 +7,8 @@ export const MessageHistory = ({ msg }) => {
    if (!msg) return null;
    console.log(msg);
 
-    return msg.map((row, i)=> (
+    return msg.map((row, i) => (
+
         <div key={i} className="message-history mt-3">   
                   
             <div className="send text-weight-bolder text-secondary ">
@@ -20,8 +21,8 @@ export const MessageHistory = ({ msg }) => {
         </div> ));
        
     
-}
+};
 
 MessageHistory.propTypes = {
     msg: PropTypes.array.isRequired,
-}
+};
