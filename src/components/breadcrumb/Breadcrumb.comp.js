@@ -3,12 +3,12 @@ import { Breadcrumb } from 'react-bootstrap';
 
 
 
-export const PageBreadcrumb = ({page}) => {
+export const PageBreadcrumb = ({ page }) => {
     return (
         <Breadcrumb>
             <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
             
-            <Breadcrumb.Item active>{page}a</Breadcrumb.Item>
+            <Breadcrumb.Item active>{page}</Breadcrumb.Item>
       </Breadcrumb>
     )
 }
